@@ -16,7 +16,7 @@ const app = express();
 const PORT = 4000;
 
 //Configuración cors
-const whiteList = ['http://localhost:5173', 'http://127.0.0.1:5173', 'http://localhost:4000', 'https://formulario-backend-c2v4.onrender.com/']
+const whiteList = ['http://localhost:5173', 'http://127.0.0.1:5173', 'http://localhost:4000', 'https://formulario-backend-c2v4.onrender.com/', 'https://formulario-frontend.onrender.com/']
 
 // const corsOptions = {
 //     origin: function (origin, callback) {
